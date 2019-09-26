@@ -14,6 +14,9 @@
 		70B88AAA233D3DBF0034298B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B88AA8233D3DBF0034298B /* Main.storyboard */; };
 		70B88AAC233D3DC00034298B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B88AAB233D3DC00034298B /* Assets.xcassets */; };
 		70B88AAF233D3DC00034298B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B88AAD233D3DC00034298B /* LaunchScreen.storyboard */; };
+		70B88ABA233D3DF50034298B /* Luis Fonsi - Despacito ft. Daddy Yankee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70B88AB7233D3DF50034298B /* Luis Fonsi - Despacito ft. Daddy Yankee.mp3 */; };
+		70B88ABB233D3DF50034298B /* NBA Just Like Magic Moments.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70B88AB8233D3DF50034298B /* NBA Just Like Magic Moments.mp3 */; };
+		70B88ABC233D3DF50034298B /* DJ Snake - Taki Taki ft. Selena Gomez, Ozuna, Cardi B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70B88AB9233D3DF50034298B /* DJ Snake - Taki Taki ft. Selena Gomez, Ozuna, Cardi B.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		70B88AAB233D3DC00034298B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70B88AAE233D3DC00034298B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70B88AB0233D3DC00034298B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B88AB7233D3DF50034298B /* Luis Fonsi - Despacito ft. Daddy Yankee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Luis Fonsi - Despacito ft. Daddy Yankee.mp3"; sourceTree = "<group>"; };
+		70B88AB8233D3DF50034298B /* NBA Just Like Magic Moments.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "NBA Just Like Magic Moments.mp3"; sourceTree = "<group>"; };
+		70B88AB9233D3DF50034298B /* DJ Snake - Taki Taki ft. Selena Gomez, Ozuna, Cardi B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJ Snake - Taki Taki ft. Selena Gomez, Ozuna, Cardi B.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +64,27 @@
 		70B88A9F233D3DBF0034298B /* music player */ = {
 			isa = PBXGroup;
 			children = (
-				70B88AA0233D3DBF0034298B /* AppDelegate.swift */,
 				70B88AA2233D3DBF0034298B /* SceneDelegate.swift */,
 				70B88AA4233D3DBF0034298B /* FirstViewController.swift */,
+				70B88AA0233D3DBF0034298B /* AppDelegate.swift */,
 				70B88AA6233D3DBF0034298B /* SecondViewController.swift */,
 				70B88AA8233D3DBF0034298B /* Main.storyboard */,
+				70B88AB6233D3DF50034298B /* song */,
 				70B88AAB233D3DC00034298B /* Assets.xcassets */,
 				70B88AAD233D3DC00034298B /* LaunchScreen.storyboard */,
 				70B88AB0233D3DC00034298B /* Info.plist */,
 			);
 			path = "music player";
+			sourceTree = "<group>";
+		};
+		70B88AB6233D3DF50034298B /* song */ = {
+			isa = PBXGroup;
+			children = (
+				70B88AB7233D3DF50034298B /* Luis Fonsi - Despacito ft. Daddy Yankee.mp3 */,
+				70B88AB8233D3DF50034298B /* NBA Just Like Magic Moments.mp3 */,
+				70B88AB9233D3DF50034298B /* DJ Snake - Taki Taki ft. Selena Gomez, Ozuna, Cardi B.mp3 */,
+			);
+			path = song;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				70B88AAF233D3DC00034298B /* LaunchScreen.storyboard in Resources */,
+				70B88ABB233D3DF50034298B /* NBA Just Like Magic Moments.mp3 in Resources */,
+				70B88ABC233D3DF50034298B /* DJ Snake - Taki Taki ft. Selena Gomez, Ozuna, Cardi B.mp3 in Resources */,
+				70B88ABA233D3DF50034298B /* Luis Fonsi - Despacito ft. Daddy Yankee.mp3 in Resources */,
 				70B88AAC233D3DC00034298B /* Assets.xcassets in Resources */,
 				70B88AAA233D3DBF0034298B /* Main.storyboard in Resources */,
 			);
